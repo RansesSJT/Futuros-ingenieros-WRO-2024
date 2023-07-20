@@ -1,0 +1,134 @@
+#include <Servo.h> 
+#include <NewPing.h>
+#include <AFMotor.h>  
+
+NewPing Dist(A0, A1, 200); //(trig,echo,dist max)
+Servo myServo; 
+
+int distancia = 0;
+int distanciaD = 0;
+int distanciaIz = 0;
+int CENTRO = 90;
+boolean Booleano = false;
+
+AF_DCMotor Motor1(1, MOTOR12_1KHZ); 
+
+void setup() {
+  myServo.attach(10);  
+  myServo.write(65);
+  delay(250); 
+  myServo.write(80);
+  delay(250);
+  myServo.write(100);
+  delay(500);
+  myServo.write(80);
+}
+void loop() {
+distancia = medirDistancia();
+if (distancia >= 25 && distancia <= 10)
+{
+  Adelante();
+}
+else if (distancia < 10)
+{
+  Frenar();
+  CENTRAR();
+  Reversa();
+  delay(50);
+  distanciaD = mirarDerecha();
+  medirDistancia();
+  delay(100);
+  distanciaIz = mirarIzquierda();
+   medirDistancia();
+  delay(100);
+
+  if(distanciaD > distanciaIz)
+    {
+      mirarIzquierda();
+      Adelante();
+      delay(100);
+      mirarDerecha();
+       Adelante();
+      delay(100);
+      CENTRAR();
+      delay(100);
+      Adelante();
+    }
+    else if(distanciaD < distanciaIz)
+    {
+      mirarDerecha();
+      Adelante();
+      delay(100);
+      mirarIzquierda();
+       Adelante();
+      delay(100);
+      CENTRAR();
+      delay(100);
+      Adelante();
+    }
+  }
+}
+
+int mirarDerecha()
+{
+    myServo.write(65); 
+    delay(350);
+    int distancia = medirDistancia();
+    delay(50);
+    return distancia;
+     myServo.write(90); 
+}
+
+int mirarIzquierda()
+{
+    myServo.write(100); 
+    delay(350);
+    int distancia = medirDistancia();
+    delay(50);
+    return distancia;
+     myServo.write(90); 
+
+}   
+int CENTRAR()
+{
+    myServo.write(90);
+    delay(350);
+    return distancia;
+}
+  int medirDistancia() 
+  { 
+    delay(10);
+    int ditanciaCM = Dist.ping_cm();
+    if(ditanciaCM <= 0 || ditanciaCM >= 250)
+    {
+      ditanciaCM = 250;
+    }
+    return ditanciaCM;
+  }
+
+void Frenar() {
+  Motor1.run(RELEASE); 
+ } 
+  
+void Adelante() {
+ if(Booleano == false)
+  {
+    Booleano = true;
+    Motor1.run(FORWARD);        
+    controlVelocidad();
+  }
+}
+
+void Reversa() {
+    Booleano = false;
+    Motor1.run(BACKWARD);        
+    controlVelocidad();
+} 
+
+ void controlVelocidad(){
+   for (int velocidad = 0; velocidad < 160; velocidad +=2) 
+   {
+      Motor1.setSpeed(velocidad);
+      delay(3);
+   }
+  }
