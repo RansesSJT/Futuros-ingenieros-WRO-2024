@@ -1,4 +1,4 @@
 Fotos del equipo
 ====
 
-Contiene fotos del equipo RoboclubSJT
+Contiene fotos del equipo SJTRoboclub
