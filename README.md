@@ -10,8 +10,4 @@ vehículo conduciendo de forma autónoma.La parte del video donde exista una
 demostración de conducción debe tener una duración mínima de 30 segundos. Se debe
 proporcionar un video para cada desafío
 
-Introducción
-====
 
-Somos parte del equipo de futuros ingenieros (SJT Robo club); nuestro robot en un evasor de obstaculos. el robot tiene 4 ruedas que solo 2 son utilizadas para rodar y las otras 2 son para la tracción (no se mueven) con ayuda de un servomotor para la tracción.
-El sensor esta arriba del servomotor para que cuando dectecte el obstaculo le de la orden de retroceder y girar.
