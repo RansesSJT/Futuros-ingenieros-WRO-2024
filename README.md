@@ -1,7 +1,8 @@
 # RoboclubSJT
 ## Introducción
 Somos el equipo RoboclubSJT para la categoria de futuros ingenieros.
-Este repositorio contiene la información pedida en el reglamento. 
+Este repositorio contiene la información pedida en el reglamento.
+
 !LA INFORMACIÓN SE IRA ACTUALIZANDO CONFERME AVANZEMOS¡
 ## Contenido
 * `Componentes`  contiene el código de todos los componentes
