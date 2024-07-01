@@ -3,7 +3,7 @@
 Somos el equipo RoboclubSJT para la categoria de futuros ingenieros.
 Este repositorio contiene la información pedida en el reglamento.
 
-!LA INFORMACIÓN SE IRA ACTUALIZANDO CONFERME AVANZEMOS¡
+!LA INFORMACIÓN SE IRA ACTUALIZANDO CONFORME AVANZEMOS¡
 ## Contenido
 * `Componentes`  contiene el código de todos los componentes
 programados para participar en la competencia. El repositorio también puede incluir los
