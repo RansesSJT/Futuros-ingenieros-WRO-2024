@@ -1,10 +1,23 @@
-# RoboclubSJT
-## Introducción
-Somos el equipo RoboclubSJT para la categoria de futuros ingenieros.
-Este repositorio contiene la información pedida en el reglamento.
+# SJT RoboClub
+![LOGO GIF ](https://github.com/RansesSJT/Futuros-ingenieros-WRO-2024/assets/140001192/cb2ae5ca-725c-4cf8-9a1f-4b3d2594eb1f)
+# Introducción
+Somos un club de robótica del Colegio Parroquial San Judas Tadeo, conformado por tres estudiantes apasionados por la tecnología. Desde el año 2023, junto a nuestra profesora de robótica, decidimos iniciar este club con el objetivo de participar en las Olimpiadas de Robótica organizadas por Fundesteam en Panamá.
 
-!LA INFORMACIÓN SE IRA ACTUALIZANDO CONFORME AVANZEMOS¡
-## Contenido
+## NUESTRO PROYECTO: Auto Autónomo
+
+Para nuestra participación, hemos estado trabajando en la construcción de un auto autónomo. Después de investigar y aprender sobre el funcionamiento de los dispositivos autónomos, descubrimos un sensor LIDAR que nos permitiría integrar tecnología de punta a nuestro proyecto. Sin embargo, conseguir este componente, así como la cámara que posteriormente agregamos, representó un desafío, ya que tuvimos que adquirirlos a través de compras en línea debido a la dificultad para encontrarlos en el mercado local.
+
+## PROCESO DE CONSTRUCCIÓN Y PROGRAMACIÓN
+Hemos dedicado tiempo extra después de clases, dividiendo nuestro esfuerzo entre las tareas escolares, actividades familiares y extracurriculares, para investigar, aprender y trabajar con mucha pasión y dedicación en nuestro proyecto. Utilizamos piezas de automóviles disponibles en el laboratorio de robótica de nuestro colegio, así como componentes adquiridos en una tienda local de electrónica. Modificamos el chasis de un auto de juguete para adaptarlo a nuestras necesidades.
+La programación inicial se realizó en Arduino IDE, pero para mejorar el funcionamiento del vehículo, presentamos el pseudocódigo y la lógica a una IA, lo que nos permitió optimizar el código. A lo largo del proceso, hemos aprendido mucho sobre electrónica y lenguaje de programación en Arduino IDE.
+
+## CONCLUSIONES Y APRENDIZAJES
+Hemos disfrutado trabajando en equipo, celebrando nuestros logros y aprendiendo de los errores cometidos. Este proyecto nos ha permitido adquirir valiosos conocimientos en robótica, electrónica y programación, a pesar de los desafíos de tiempo y adquisición de componentes.
+Participación en las Olimpiadas de Robótica
+Estamos entusiasmados y con grandes expectativas de participar en las regionales de las Olimpiadas de Robótica, con la esperanza de avanzar a la final nacional y, eventualmente, a la competencia internacional. Soñar es la parte más emocionante de este proceso.
+Este repositorio en GitHub contiene información detallada sobre nuestro equipo y el proyecto del auto autónomo para la categoría de Futuros Ingenieros, bajo el nombre del club SJT-RoboClub.
+
+# Contenido
 * `Componentes`  contiene el código de todos los componentes
 programados para participar en la competencia. El repositorio también puede incluir los
 archivos para modelos utilizados por impresoras 3D, máquinas de corte láser y
