@@ -18,13 +18,10 @@ Estamos entusiasmados y con grandes expectativas de participar en las regionales
 Este repositorio en GitHub contiene información detallada sobre nuestro equipo y el proyecto del auto autónomo para la categoría de Futuros Ingenieros, bajo el nombre del club SJT-RoboClub.
 
 # Contenido
-* `Componentes`  contiene el código de todos los componentes
-programados para participar en la competencia. El repositorio también puede incluir los
-archivos para modelos utilizados por impresoras 3D, máquinas de corte láser y
-máquinas CNC para producir los elementos del vehículo.
+* `Componentes`  contiene información de todos los componentes usados para participar en la competencia. 
 * `fotos` contiene 4 fotos del vehículo (desde todos los lados, desde arriba y desde abajo) y una foto del equipo
-* `información`contiene Discusión, información y motivación para la movilidad, potencia y sensores del
-vehículo, y gestión de obstáculos.
+* `información`contiene Discusión, información y motivación para la movilidad, consultas con la IA, potencia y sensores del
+vehículo, y gestión de obstáculos. 
 * `motor` contiene código de software de control para todos los componentes que fueron programados para participar en la competencia
 * `video` URL de YouTube (debe ser pública o accesible mediante enlace) que muestre el
 vehículo conduciendo de forma autónoma.La parte del video donde exista una
